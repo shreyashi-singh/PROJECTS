@@ -1,0 +1,64 @@
+body{
+    background-image: url(image.webp);
+}
+.container{
+    height: 400px;
+    width: 500px;
+    /* box-shadow: rgba(50, 50, 93,0.25) 0px 6px 12px -2px */
+    /* rgba(0, 0, 0, 0.3); */
+    /* background: rgb(105, 243, 220); */
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    transform: translate(-50% -50%);
+    /* border: 2px solid rgb(6, 151, 161); */
+    border-radius: 10px;
+}
+.title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-family: 500;
+    color: rgb(108, 9, 201);
+    font-weight: 600;
+}
+.enter{
+    /* margin: 10px; */
+    height: 230px;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50% -50%);
+    font-family: sans-serif;
+    /* border: none; */
+    /* outline: none; */
+    border: 2px solid rgb(53, 6, 161); 
+    border-radius: 5px;
+}
+.title::before{
+    content: "Enter Text";
+    font-family: sans-serif;
+    position: absolute;
+    top: 75px;
+    color: black;
+    font-size: 25px;
+    margin-left: -40px;
+    font-weight: 500;
+}
+.btn{
+    color: whitesmoke;
+    background:  rgb(108, 9, 201);
+    height: 40px;
+    width: 410px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    transform: translate(-50% -50%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
